@@ -1,19 +1,61 @@
 # WikiParse
 
-TOPIC
+WikiParse is a tool designed to parse and extract data from Wikipedia articles efficiently.
 
-	A python script  that parse wikipedia page used pandas requests BeautifulSoup and re modules
-	That print resule with the tarms of 
+## Features
 
-	- For animal that doesn’t have Collective noun, print Animal and Collateral adjective. Example: “Aardvark - orycteropodian”, “Armadillo - 	cingulatan”
+- **Efficient Parsing**: Quickly extract relevant information from Wikipedia articles.
+- **Customizable Extraction**: Tailor the data extraction process to meet specific needs.
+- **User-Friendly Interface**: Intuitive commands and options for seamless operation.
 
-	- For animal that has multiple values under Collective noun - output the animal name with then noun multiple times: "Antelope - cluster”, 	"Antelope - herd”, "Antelope - tribe”
+## Installation
 
+To install WikiParse, ensure you have [Git](https://git-scm.com/downloads) and Python installed on your system. Then, follow these steps:
 
-EXAMPLE
+1. Clone the repository:
 
-	Aardvark - orycteropodian
-	Albatross - flock
-	Albatross -  gam (when searching for mates)
-	Albatross -  rookery
-	Alligator - congregation
+   ```bash
+   git clone https://github.com/Levi-Michael/WikiParse.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd WikiParse
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+Run the application using:
+
+```bash
+python main.py
+```
+
+### Changing the Wikipedia Article
+
+To parse a different Wikipedia article, modify the `url` variable at line 7 of the `main.py` file. Set it to the desired article's URL.
+
+For example:
+
+```python
+url = "https://en.wikipedia.org/wiki/Your_Desired_Article"
+```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a new branch for any feature additions or bug fixes. Once your changes are ready, submit a pull request for review.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to open an issue or contact me directly through my [GitHub profile](https://github.com/Levi-Michael).
