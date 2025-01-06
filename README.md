@@ -54,4 +54,4 @@ Contributions are welcome! Please fork the repository and create a new branch fo
 
 ## Contact
 
-For any questions or suggestions, feel free to open an issue or contact me directly through my [GitHub profile](https://github.com/Levi-Michael).
+Feel free to reach out for questions or collaboration opportunities! or suggestions, open an issue or contact me directly through my [GitHub profile](https://github.com/Levi-Michael).
