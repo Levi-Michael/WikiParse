@@ -52,10 +52,6 @@ url = "https://en.wikipedia.org/wiki/Your_Desired_Article"
 
 Contributions are welcome! Please fork the repository and create a new branch for any feature additions or bug fixes. Once your changes are ready, submit a pull request for review.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For any questions or suggestions, feel free to open an issue or contact me directly through my [GitHub profile](https://github.com/Levi-Michael).
